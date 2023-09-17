@@ -15,6 +15,10 @@ const puzzle = [];
 /// Posição inicial da peça em branco
 let emptyTile = { row: puzzleSize - 1, col: puzzleSize - 1 };
 
+// Conta a quantidade de cliques do jogador
+let clickCount = 0;
+
+
 // Manipula a imagem 
 puzzleImage.onload = () => {
     initializePuzzle(); // Inicializa o quebra-cabeça
