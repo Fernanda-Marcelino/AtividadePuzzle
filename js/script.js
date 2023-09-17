@@ -92,3 +92,13 @@ const canvas = document.getElementById('puzzle');
             puzzle[tile1.row][tile1.col] = puzzle[tile2.row][tile2.col];
             puzzle[tile2.row][tile2.col] = temp;
         }
+        
+        const btnrecomeçar = document.getElementById("btnRestart");
+        btnrecomeçar.addEventListener('click',() => {
+                    initializePuzzle();
+                    shufflePuzzle();
+                    drawPuzzle();
+        });
+
+        
+        
