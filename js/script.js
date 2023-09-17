@@ -1,21 +1,29 @@
+// Faz a ligação do elemento canvas e da o seu o contexto para desenhar o quebra cabeça
 const canvas = document.getElementById('puzzle');
         const ctx = canvas.getContext('2d');
 
-        const puzzleSize = 3; // Tamanho do quebra-cabeça (4x4)
+        // Tamanho do quebra cabeça
+        const puzzleSize = 3; 
         const tileSize = canvas.width / puzzleSize;
+        
+        //Adiciona a imagem do quebra cabeça
         const puzzleImage = new Image();
-        puzzleImage.src = 'img/cat.jpg'; // Substitua com o URL da sua imagem
+        puzzleImage.src = 'img/cat.jpg'; 
 
         const puzzle = [];
+        // Posição inicial da peça em branco
         let emptyTile = { row: puzzleSize - 1, col: puzzleSize - 1 };
 
+        // Manipula a imagem
         puzzleImage.onload = () => {
             initializePuzzle();
             drawPuzzle();
         };
 
+        // Interação do mouse com o jogador
         canvas.addEventListener('mousedown', handleMouseDown);
 
+        // Inicia o quebra cabeça
         function initializePuzzle() {
             for (let row = 0; row < puzzleSize; row++) {
                 puzzle[row] = [];
@@ -28,6 +36,7 @@ const canvas = document.getElementById('puzzle');
             shufflePuzzle();
         }
 
+        // Embaralha as peças do quebra cabeça aleatoriamente
         function shufflePuzzle() {
             for (let i = 0; i < 1000; i++) {
                 const neighbors = getNeighbors(emptyTile.row, emptyTile.col);
@@ -37,6 +46,7 @@ const canvas = document.getElementById('puzzle');
             }
         }
 
+        // Desenha o quebra cabeça 
         function drawPuzzle() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             for (let row = 0; row < puzzleSize; row++) {
@@ -59,6 +69,7 @@ const canvas = document.getElementById('puzzle');
             }
         }
 
+        // Relaciona o clique do jogador com o jogo
         function handleMouseDown(event) {
             const mouseX = event.clientX - canvas.getBoundingClientRect().left;
             const mouseY = event.clientY - canvas.getBoundingClientRect().top;
@@ -72,12 +83,14 @@ const canvas = document.getElementById('puzzle');
             }
         }
 
+        // Verifica se as peças estão correntes 
         function isAdjacent(row1, col1, row2, col2) {
             return (
                 Math.abs(row1 - row2) + Math.abs(col1 - col2) === 1
             );
         }
-
+        
+        //Posição das peças vizinhas
         function getNeighbors(row, col) {
             const neighbors = [];
             if (row > 0) neighbors.push({ row: row - 1, col });
@@ -87,12 +100,14 @@ const canvas = document.getElementById('puzzle');
             return neighbors;
         }
 
+        // Troca duas peças no quebra cabeça
         function swapTiles(tile1, tile2) {
             const temp = puzzle[tile1.row][tile1.col];
             puzzle[tile1.row][tile1.col] = puzzle[tile2.row][tile2.col];
             puzzle[tile2.row][tile2.col] = temp;
         }
         
+        // Botão que embaralha as peças novamente
         const btnrecomeçar = document.getElementById("btnRestart");
         btnrecomeçar.addEventListener('click',() => {
                     initializePuzzle();
