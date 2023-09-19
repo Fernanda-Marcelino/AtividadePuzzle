@@ -2,7 +2,6 @@
 O nosso jogo consiste em um Quebra-Cabeça de arrastar que faz ligação com a história principal desenvolvida com as musicas.
 
 
-Uploading script.js - Atividade Puzzle - Visual Studio Code 2023-09-18 23-25-06.mp4…
 
 
 <h1>Explicação Código</h1>
@@ -24,6 +23,6 @@ Uploading script.js - Atividade Puzzle - Visual Studio Code 2023-09-18 23-25-06.
 - Adicionamos a imagem do nosso jogo;<br>
 - Criamos as funções para que o jogo enfim funcionasse (todas as funções estão comentadas no código, mostrando a função de cada uma delas);<br>
 
-<h2> Inspiração e história do jogo</h2>
+<h2> Inspiração e história do jogo</h2><br>
 
-![Captura de tela 2023-09-18 231237](https://github.com/Fernanda-Marcelino/AtividadePuzzle/assets/128320607/7fe88cd9-d4f4-4f58-83aa-91d60793f818)
+![Captura de tela 2023-09-18 231229](https://github.com/Fernanda-Marcelino/AtividadePuzzle/assets/128320607/034c363f-aa68-446f-89b0-915e8495fefe)
