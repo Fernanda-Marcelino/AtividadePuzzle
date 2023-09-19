@@ -22,4 +22,4 @@ O nosso jogo consiste em um Quebra-Cabeça de arrastar que faz ligação com a h
 
 <h2> Inspiração e história do jogo</h2>
 ![Captura de tela 2023-09-18 231229](https://github.com/Fernanda-Marcelino/AtividadePuzzle/assets/128320607/61e75075-1a3d-4f93-bd03-8b54e9ffa3b2)
-![Captura de tela 2023-09-18 231237](https://github.com/Fernanda-Marcelino/AtividadePuzzle/assets/128320607/3805c44b-25cb-4884-b37d-3734ac031ee4)
+
