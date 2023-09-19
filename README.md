@@ -30,3 +30,4 @@ https://drive.google.com/drive/folders/14fmC7s5tUaXf7xK7bcFcgXaX41rUrWds?usp=dri
 
 ![Captura de tela 2023-09-18 231229](https://github.com/Fernanda-Marcelino/AtividadePuzzle/assets/128320607/034c363f-aa68-446f-89b0-915e8495fefe)
 ![Captura de tela 2023-09-18 231237](https://github.com/Fernanda-Marcelino/AtividadePuzzle/assets/128320607/7802fdc3-68b1-4595-9273-104a68bea565)
+![Captura de tela 2023-09-11 211357](https://github.com/Fernanda-Marcelino/AtividadePuzzle/assets/128320607/f2f75ee9-4640-4c9a-9f55-f1c3dd78e952)
