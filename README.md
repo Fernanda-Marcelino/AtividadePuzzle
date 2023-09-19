@@ -25,5 +25,5 @@ Uploading script.js - Atividade Puzzle - Visual Studio Code 2023-09-18 23-25-06.
 - Criamos as funções para que o jogo enfim funcionasse (todas as funções estão comentadas no código, mostrando a função de cada uma delas);<br>
 
 <h2> Inspiração e história do jogo</h2>
-![Captura de tela 2023-09-18 231229](https://github.com/Fernanda-Marcelino/AtividadePuzzle/assets/128320607/355c2971-8586-43b3-9c94-c7e41054471a)
 
+![Captura de tela 2023-09-18 231237](https://github.com/Fernanda-Marcelino/AtividadePuzzle/assets/128320607/7fe88cd9-d4f4-4f58-83aa-91d60793f818)
