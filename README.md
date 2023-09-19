@@ -12,3 +12,10 @@ O nosso jogo consiste em um Quebra-Cabeça de arrastar que faz ligação com a h
 - Mudamos a cor de fundo do site; <br>
 - Definimos as configurações gerais da posição do canvas na tela;<br>
 - Estilizamos o botão adicionando cor, fonte e tamanho. Além de definir a sua posição na tela <br>
+
+<h2> Javascript</h2>
+- Ligamos o canva html e demos o seu contexto; <br>
+- Definimos o tamanho do nossso quebra-cabeça;<br>
+- Denimos a posição da peça vazia;<br>
+- Adicionamos a imagem do nosso jogo;<br>
+- Criamos as funções para que o jogo enfim funcionasse (todas as funções estão comentadas no código, mostrando a função de cada uma delas);<br>
