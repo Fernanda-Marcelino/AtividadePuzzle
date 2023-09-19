@@ -21,6 +21,5 @@ O nosso jogo consiste em um Quebra-Cabeça de arrastar que faz ligação com a h
 - Criamos as funções para que o jogo enfim funcionasse (todas as funções estão comentadas no código, mostrando a função de cada uma delas);<br>
 
 <h2> Inspiração e história do jogo</h2>
-(https://github.com/Fernanda-Marcelino/AtividadePuzzle/assets/128320607/7f1ed68b-2dda-4a69-91f3-a9bf000f6582)
-![Captura de tela 2023-09-18 231229](https://github.com/Fernanda-Marcelino/AtividadePuzzle/assets/128320607/a0baeccc-d3b0-42b0-a3be-3aa8f8cc7fbe)
+![Captura de tela 2023-09-18 231229](https://github.com/Fernanda-Marcelino/AtividadePuzzle/assets/128320607/355c2971-8586-43b3-9c94-c7e41054471a)
 
