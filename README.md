@@ -1,9 +1,8 @@
 # AtividadePuzzle
 O nosso jogo consiste em um Quebra-Cabeça de arrastar que faz ligação com a história principal desenvolvida com as musicas.<br>
+segue em anexo link com o video de execução do game: 
+https://drive.google.com/drive/folders/14fmC7s5tUaXf7xK7bcFcgXaX41rUrWds?usp=drive_link
 
-
-
-Uploading script.js - Atividade Puzzle - Visual Studio Code 2023-09-18 23-25-06.mp4…
 
 
 
