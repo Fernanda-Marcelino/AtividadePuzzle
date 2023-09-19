@@ -19,3 +19,6 @@ O nosso jogo consiste em um Quebra-Cabeça de arrastar que faz ligação com a h
 - Denimos a posição da peça vazia;<br>
 - Adicionamos a imagem do nosso jogo;<br>
 - Criamos as funções para que o jogo enfim funcionasse (todas as funções estão comentadas no código, mostrando a função de cada uma delas);<br>
+
+<h2> Inspiração e história do jogo</h2>
+[atividade musicas.pdf](https://github.com/Fernanda-Marcelino/AtividadePuzzle/files/12654998/atividade.musicas.pdf)
